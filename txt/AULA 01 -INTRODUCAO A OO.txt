@@ -1,0 +1,16 @@
+Orientação a Objetos refere-se a uma forma de programar diferente de outros tipos, como a Imperativa. 
+O foco nessa linguagem são os objetos, eles precisam ser primeiramente declarados, para depois serem manipulados,
+diferentemente de uma Linguagem PI onde o código inteiro representa o todo do projeto, em POO como os objetos é que
+são programados, eles podem ser individualmente modificados, sem que isso interfirá em outras partes e funcionalidades
+do código. Trabalha com a idea de Tipos Abstratos de Dados, que consiste numa combinação da abstração funcional e de dados,
+que significa que os conjutnos de dados e de operações não se preocupam com a forma de armazenamento ou de implementação,
+como braços que podem se mover sem se preocupar em como estão presas ao corpo, isso facilita a manutenção e atualização
+de partes espeficas do programa.
+
+em relação as boas práticas, como se está falado de OO, o ideal é usar o mínimo de operações com baixa complexidade - e todas
+com um uso muito claro e espeficicado, visto que uma quantidade grande dificultaria a leitura e o entendimento do código, essas podem ser posteriormente combinadas em operações
+complexas.
+
+Java é uma linguagem de programação totalmente Orientada a Objetos, multi-plataforma e que trabalha com uma JVM que consegue compilar
+códigos produzidos em diferentes máquinas em código-objeto chamado Bytecodes e esses são interpretados para rodar na máquina em que vai ser executado.
+Java possui tipos primitivos e todos os outros tipos de dados são objetos, as funções (chamdadas de métodos) sempre deve estar conectada a uma classe.

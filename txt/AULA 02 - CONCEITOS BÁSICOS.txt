@@ -1,0 +1,36 @@
+Em Java, é possivel fazer comentários em linha simples e em bloco, com os caracteres // e /* */, respectivamente. Também é possivel fazer comentários em bloco usando o padrão
+Javadoc, com as TAGs especiais:
+/**
+  * 
+  */
+Existem dois tipos de dados em Java, Primitivos (básicos) ou "palavras reservadas" e os Referenciados (não primitivo). Java é Case Sensitive e uma dica para boa prática na hora
+codar é usar nomes com relação ao contexto da variável que vai ser criado; é possivel declarar uma variável e em seguida atrubui-la um valor ou declarar e ao mesmo tempo já 
+inicialiozá-la. 
+Os tipos referenciados são representados por Ponteiros, como a String - armazena o endereço de memória onde está o tipo refenrenciado. É possivel concatenar Strings com o operador "+".
+Existem os Operadores de Soma (+), Subtração (-), Multiplicação (*), Divisão (/) e Resto (%). Em divisão por Inteiros, o resultado sempre deve ser arrendodado para baixo.
+Os Operadores de Comparação são Maior que (>), Menor que (<), Maior ou igual e Menor ou igual (>= e <=), Igual e Diferente (== e !=). Os Operadores Lógicos (booleanos) são AND (&&), OR (||) e NOT (!), 
+usando a dupla de && e ||, caso o primeiro resultado já conste como verdadeiro ou falso (dependendo da expressão feita) e não precise comparar os outros valores, ele não irá comparar, porém usando 
+o & e | sozinhos, mesmo que a primeira comparação já seja suficiente para chegar ao resultado pretendido, ele mesmo assim faz as outras comparações.
+Em Java, as atribuições são feitas com o sinal de igual (=), porém no ato da atribuição, já é possivel fazer incrementos ou outras operações, como +=, -=, *= e /=.
+O Cast permite ser feita uma conversão dinâmica de tipos, que siginifica atribuir rapidamente um novo tipo a um tipo já previamente declarado, pode ser explicita como na expressão:
+(tipo)expressão - onde se converte o tipo que anteriormente estava associado a expressão para o novo tipo que está entre parenteses. Ou implicita, com a atribuição direta
+do novo tipo pretendido.
+Existem os Operadores Unários (de incremente) ++ e --, que podem ser incrementados antes ++X ou incrementados depois X++ do uso da variável.
+Existem também a chamada Promoção Aritmética, onde os tipos, em expressões, são convertidos para os tipos de maior precisão. 
+O Escopo de Bloco é delimitado pelas chaves {} e cada bloco define o escopo para suas variáveis. 
+
+Nos comandos condicionais existem o if-else, onde a condição deve ser uma expressão booleana, com a estrutura:
+if (condição) {
+	comando1;
+}else {
+	comando2;
+}
+
+O switch-case (ou seleção múltipla) também controla o fluxo do programa, onde as expressões a serem verificadas devem ser dos tipos byte, char, short ou int. Cada caso deve ser especificado uma ação 
+e caso todos falhem, o defaut é acionado. Sendo o break o encerramento do switch caso um dos cases seja acionado.
+o Loop com o while possui a estrutura de "caso uma condição seja verdadeira, execute o comando"; de acordo com a forma como os critérios sejam declarados, o loop pode se repetir infinitamente.
+O Loop com for possui a estrutura:
+for (inicialização; condição; incremento){
+		bloco (comando)
+}.
+

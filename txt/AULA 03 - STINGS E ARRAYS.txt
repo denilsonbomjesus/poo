@@ -1,0 +1,37 @@
+Em Java, as Strings e Arrays possuem usos semelhantes a linguagem C. 
+
+1. Strings
+
+Strings são sequências de caracvteres, e em Java Strings são Objetose é uma classe que não pode ser herdada.
+Tem como atributo um Array de char (que é um atributo ptivado da classe String) e só pode ser manipulado pelas funções de String. A String após criada é imutável. Os métodos de String 
+retornam novas strings; por conta desses atributos, em Java a String se comporta como um tipo Primitivo, mesmo ela sendo do tipo Referencial. 
+É possivel fazer concatenação de String com String e de String com outro tipo de dado, como inteiros, com o operador +.
+Testa-se a igualdade de Strings com o método equals, exemplo:
+
+s1.equals(s2) - comparando se a String s1 é igual a s2.
+
+Na comparação, para descartar diferenças de caixa alta ou baixa entre duas strings, deve-se usar o equalsIgnoreCase().
+
+É possivel colocar todas as letras de uma string em caixa baixa com o toLowerCase() ou em caixa alta como o toUpperCase(); o trim() tira espaços vazios - entre diversos outros métodos.
+
+Se existem duas Strings iguais no programa, o interpretador armazena as duas no mesmo endereço de memória.
+
+Java possui classes que encapsulam tipos primitivos e estás contém métodos para transformar uma String em um (que sempre devem começar com letras maiusculas), como:
+
+Integer.parseInt(s) - para Int e Double.parseDouble(s) - para Double.
+
+Sendo o método que transforma um tipo Primitivo numa String:
+
+String.valueOf(x).
+
+2. Arrays
+
+São tipo Referencial, parecidos com objetos; todos os elementos de um mesmo array são do mesmo tipo e após sua criação, possuem tamanho fixo. É possivel manipular um array já criado de forma a dobrar
+seu tamanho ou ações semelhantes.
+A inicialização de um Array pode ser feita de diferentes formas, sempre variando de acordo com o tipo ao qual ele é atribuído.
+Case se tente acessar um elemento indefinido de um array, será gerada a exceção:
+
+ArrayIndexOutOfBoundsException
+
+Arrays de Objetos armazenam referências a Objetos de um determinado tipo, devendo ser alocados como se fossem do tipo primitivon e caso não haja uma atribuição explicita, será retornado após a inicialização null.
+É possivel criar arrays multidimensionais, tomando o devido cuidado pois quanto mais dimensões, mais memória ele utilizará.
